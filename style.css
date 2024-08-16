@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+  background-color: #91bcf9;
+}
+.navmain{
+    width: 100%;
+    height: 60px;
+    background-color: #B4D4FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+    
+}
+.navheading{
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 700;
+    color: #176B87;
+}
+
+.navcomponent{
+width: 400px;
+display: flex;
+text-decoration: none;
+justify-content: space-evenly;
+
+padding: 10px;
+
+
+}
+.navcomponent a{
+    text-decoration: none;
+    color: #176B87;
+}
+.navsearch{
+    width: 900px;
+    display: flex;
+   flex-direction: row-reverse;
+   padding-right: 20px;
+}
+.navsearch input{
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background-color: #EEF5FF;
+  
+}
+.navsearch button{
+    height: 30px;
+    width:70px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #EEF5FF;
+}
+
+
+/* main section */
+
+.sectionmain{
+    width: 650px;
+    height: 610px;
+    position: relative;
+    left: 325px;
+   top: 50px;
+   
+
+}
+.maininfo{
+    
+    width: 100%;
+    background-color: #6b8ebf;
+    height: 200px;
+    display: flex;
+    
+    
+}
+.logomain{
+    display: flex;
+    align-items: center;
+   
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url(./pictures/sun.png);
+    background-size: contain;
+    
+    margin-left: 20px;
+    background-repeat: no-repeat;
+     display: flex;   
+}
+.logo p{
+    position: relative;
+  top: 110px;
+  left: 30px;
+}
+
+.temperature{
+    height:160px;
+    width: 100%;
+    background-color:#EEF5FF;
+    padding: 20px;
+    border: 2px solid black;
+}
+.location{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.location p{
+    font-size: 0.95rem;
+}
+.temp{
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    right: 30px;
+
+}
+.temp img{
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+.additionalinfo{
+    width: 650px;
+    height: 200px;
+    background-color: violet;
+    display: flex;
+
+}
+.humidity{
+    width: 216.6px;
+    height: 100%;
+    background-color: #EEF5FF;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+.pressure{
+    width: 216.6px;
+    height: 100%;
+    background-color: #EEF5FF;
+    text-align: center;
+    border: 2px solid black;
+}
+.wind{
+    width: 216.6px;
+    height: 100%;
+    text-align: center;
+    background-color:#EEF5FF;
+    border: 2px solid black;
+}
+.additionalinfo img{
+    position: relative;
+    right: 60px;
+    top: 40px;
+}
+.additionalinfo p{
+    font-size: 1.4rem;
+}
+
+
